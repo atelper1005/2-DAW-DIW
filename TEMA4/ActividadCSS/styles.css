@@ -1,0 +1,141 @@
+strong {
+    color: orangered;
+}
+
+header {
+    color: blue;
+}
+
+.h2--centrado, p--centrado {
+    display: flex;
+    justify-content: center;
+}
+
+.section--centrado {
+    display: flex;
+    justify-content: center;
+  }
+
+/* Documento1 */
+
+.tabla1__tr--underlined {
+    border-bottom: 2px solid black;
+  }
+  
+  .tabla1__th--rightBorder {
+    border-right: 2px solid black;
+  }
+  
+  .tabla1__td--twoBorders {
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+  }
+  
+  .section__tabla1 {
+    width: 300px;
+    height: 300px;
+    border-collapse: collapse;
+  }
+
+/* Documento2 */
+
+.section--consolas {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .section__tabla2 {
+    width: auto;
+    border-collapse: collapse;
+  }
+  
+  .thead__filaCabe {
+    background-color: red;
+    height: 50px;
+    border-bottom: 2px solid black;
+  }
+  .filaCabecera__th {
+    width: 80px; 
+    
+  }
+  .filaCabecera__th--slim {
+    width: 30px;
+  }
+  
+  .tbody__filaBody {
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    
+  }
+  
+  .tbody__filaBody--acero {
+    background-color: gray;
+  }
+  
+  .tbody__filaBody--volador {
+    background-color: aquamarine;
+  }
+  
+  .tbody__filaBody--agua {
+    background-color: blue;
+  }
+  
+  .tbody__filaBody--hielo {
+    background-color: aqua;
+  }
+  
+  .tbody__filaBody--planta {
+    background-color: green;
+  }
+  
+  .tbody__filaBody--bicho {
+    background-color: greenyellow;
+  }
+  
+  .tbody__filaBody--electrico {
+    background-color: yellow;
+  }
+  
+  .tbody__filaBody--normal {
+    background-color: blanchedalmond;
+  }
+  
+  .tbody__filaBody--roca {
+    background-color: rgba(128, 13, 13, 0.863);
+  }
+  
+  .tbody__filaBody--tierra {
+    background-color: rgb(206, 113, 0);
+  }
+  
+  .tbody__filaBody--fuego {
+    background-color: rgb(253, 139, 0);
+  }
+  
+  .tbody__filaBody--lucha {
+    background-color: rgb(252, 81, 39);
+  }
+  
+  .tbody__filaBody--hada {
+    background-color: rgb(255, 187, 221);
+  }
+  
+  .tbody__filaBody--psiquico {
+    background-color: rgb(221, 81, 71);
+  }
+  
+  .tbody__filaBody--veneno {
+    background-color: rgb(245, 124, 219);
+  }
+  
+  .tbody__filaBody--dragon {
+    background-color: rgb(194, 117, 204);
+  }
+  
+  .tbody__filaBody--fantasma {
+    background-color: rgb(110, 45, 136);
+  }
+  
+  .tbody__filaBody--siniestro {
+    background-color: rgb(110, 50, 63);
+  }
