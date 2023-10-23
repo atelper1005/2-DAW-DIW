@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teoría HTML I</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+
+        <h1>
+            Teoría HTML I
+        </h1>
+    
+        <p>Esta es mi primera página con HTML, un poco fea pero bueno, se le quiere igual</p>
+
+    </header>
+    
+<section>
+    <table border="1">
+
+        <caption>Título Tabla</caption>
+
+        <tr>
+            <th></th>
+            <th colspan="2">col span</th>
+            <th>col2</th>
+        </tr>
+
+        <tr><!-- (fila, columna) -->
+            <th rowspan="3">row0</th>
+            <td>0,0</td>
+            <td>0,1</td>
+            <td>0,2</td>
+        </tr>
+
+        <tr>
+            
+            <td>1,0</td>
+            <td>1,1</td>
+            <td>1,2</td>
+        </tr>
+
+        <tr>
+            
+            <td>2,0</td>
+            <td>2,1</td>
+            <td>2,2</td>
+        </tr>
+
+    </table>
+</section>
+
+<footer>
+    <h3>Pie de página</h3>
+</footer>
+
+<!-- Jerarquía con Emmet -->
+<!-- header>h1{Teoría HTML I}+p{mi primera chamba} -->
+<!-- section>table>caption{Título tabla}+(tr>th*4)+(tr>th+td*3)*3 -->
+<!-- footer>h4{Pie de página} -->
+
+<!-- > 
+
+    (hijo)  --- vale para el texto dentro de las etiquetas también
+    etiqueta + etiqueta2 --- ambas etiquetas están al mismo nivel
+    etiqueta{} --- las llaven indican texto
+    etiqueta*numero --- numero indica el nº de etiquetas que quieres poner 
+
+-->
+
+    <!-- 
+        B.E.M -- Reglas para la creación del nombre de las clases
+
+        Block__Elemental--Modifier 
+
+
+
+     -->
+
+</body>
+</html>

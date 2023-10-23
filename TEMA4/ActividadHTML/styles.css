@@ -1,0 +1,47 @@
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table, tr, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+
+    width: 200px;
+    height: 200px;
+}   
+
+tr:nth-child() {
+    border-bottom: 1px solid black;
+}
+
+tr {
+    border-bottom: 1px solid gray;
+}
+
+td {
+    border-bottom: 1px solid gray;
+}
+
+/* Especifidad en CSS 
+
+    * : TODO el documento, el menos especifico. Ej. * {}
+
+    elementos, pseudoelementos: aplican a TODOS esos elementos. Ej: <body>, <header>, etc...
+
+    clases, atributos, pseudoclases: aplican a los elementos con cierta clase. Ej: .h1 --naranja{}
+
+    id: aplica a los elementos con cierto id. Ej: #id {}
+
+    Estilos inline: se aplica directamente en el html. Ej: <div style="">
+
+    !important: no se aconseja usar, machaca el resto de elementos. Ej: color: red !important;
+
+*/
+
+h3 {
+    color: brown;
+}
+
+caption {
+    font-size: 0.5em;
+}
