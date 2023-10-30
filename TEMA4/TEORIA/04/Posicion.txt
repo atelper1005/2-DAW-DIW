@@ -1,0 +1,30 @@
+                    POSICION
+
+position: absolute;     //Con respecto al último elemento posicional
+position: relative;     //Con respecto a su posición original
+position: static;       //Por defecto
+postion: fixed;         //Fija al elemento
+
+top             right          left         bottom
+arriba          derecha        izquierda    abajo
+
+                    DISPLAY
+
+display: block;
+display: inline;        //No se pueden redimensionar
+display: inline-block;  //Utiliza tanto propiedades de block como de inline
+display: grid;          //Divide en columnas y filas
+display: flex;          //Los elementos dentro se comportarían como un span, es decir en línea
+
+                    PROPIEDADES FLEX
+
+    - flex-direction: column;
+            ""      : row;
+            
+    - align-items: center;
+                    flex
+
+    - justify-content: center;
+                        start;
+                        end;
+                        space-around;

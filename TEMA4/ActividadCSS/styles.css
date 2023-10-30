@@ -1,17 +1,18 @@
 strong {
-    color: orangered;
+    color: orangered;    
 }
 
 header {
     color: blue;
 }
 
-.h2--centrado, p--centrado {
+.h2--center, .p--center {
     display: flex;
     justify-content: center;
 }
 
-.section--centrado {
+
+.section--center {
     display: flex;
     justify-content: center;
   }
@@ -26,7 +27,7 @@ header {
     border-right: 2px solid black;
   }
   
-  .tabla1__td--twoBorders {
+  .tabla1__td--Borders {
     border-right: 1px solid gray;
     border-bottom: 1px solid gray;
   }
@@ -39,16 +40,17 @@ header {
 
 /* Documento2 */
 
-.section--consolas {
+  .section--font {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
   .section__tabla2 {
-    width: auto;
+    width: 500px;
+    height: 500px;
     border-collapse: collapse;
   }
   
-  .thead__filaCabe {
+  .thead__filaCabecera {
     background-color: red;
     height: 50px;
     border-bottom: 2px solid black;
@@ -57,7 +59,7 @@ header {
     width: 80px; 
     
   }
-  .filaCabecera__th--slim {
+  .filaCabecera__th--thin {
     width: 30px;
   }
   
@@ -73,7 +75,7 @@ header {
   }
   
   .tbody__filaBody--volador {
-    background-color: aquamarine;
+    background-color: rgb(101, 240, 193);
   }
   
   .tbody__filaBody--agua {
@@ -101,7 +103,7 @@ header {
   }
   
   .tbody__filaBody--roca {
-    background-color: rgba(128, 13, 13, 0.863);
+    background-color: rgb(202, 136, 55);
   }
   
   .tbody__filaBody--tierra {
@@ -109,23 +111,23 @@ header {
   }
   
   .tbody__filaBody--fuego {
-    background-color: rgb(253, 139, 0);
+    background-color: orange;
   }
   
   .tbody__filaBody--lucha {
-    background-color: rgb(252, 81, 39);
+    background-color: rgb(252, 71, 39);
   }
   
   .tbody__filaBody--hada {
-    background-color: rgb(255, 187, 221);
+    background-color: pink;
   }
   
   .tbody__filaBody--psiquico {
-    background-color: rgb(221, 81, 71);
+    background-color: rgb(221, 71, 159);
   }
   
   .tbody__filaBody--veneno {
-    background-color: rgb(245, 124, 219);
+    background-color: rgb(131, 5, 103);
   }
   
   .tbody__filaBody--dragon {
@@ -133,9 +135,9 @@ header {
   }
   
   .tbody__filaBody--fantasma {
-    background-color: rgb(110, 45, 136);
+    background-color: rgb(129, 42, 163);
   }
   
   .tbody__filaBody--siniestro {
-    background-color: rgb(110, 50, 63);
+    background-color: rgb(82, 32, 43);
   }

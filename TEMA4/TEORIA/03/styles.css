@@ -1,0 +1,49 @@
+h1, p, h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+}
+
+div p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+}
+
+div>p {
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+
+.cuerpo__divdePrueba {
+    color: black;
+    background-color: chocolate;
+    margin-left: 10px;
+
+    height: 50px;
+    width: 100px;
+
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.cuerpo__divdePrueba--red {
+    position: absolute;
+    background-color: red;
+
+    top: 10px;
+    left: 30px;
+}
+
+.cuerpo__divdePrueba--blue {
+    background-color: blue;
+}
+
+.cuerpo__spanPrueba {
+    background-color: yellow;
+
+    margin-left: 10px;
+    border: 1px;
+    padding: 10px;
+
+    height: 100px;
+    width: 100px;
+}

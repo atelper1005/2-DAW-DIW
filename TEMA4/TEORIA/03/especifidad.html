@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Especifidad CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Aprendiendo especifidad</h1>
+    </header>
+
+    <main>
+      <div>
+        <p>Primer p de la página, introduciendo texto aleatorio</p>
+      </div>
+      <div>
+        <span>
+          <p>Parrafo 2</p>
+        </span>
+        <span>
+          <p>Parrafo 3</p>
+        </span>
+      </div>
+      <div class="cuerpo__divdePrueba">content</div>
+      <div class="cuerpo__divdePrueba cuerpo__divdePrueba--red">content2</div>
+      <div class="cuerpo__divdePrueba cuerpo__divdePrueba--blue">content3</div>
+
+      <div>
+        <span class="cuerpo__spanPrueba"> span span 1 </span>
+        <span class="cuerpo__spanPrueba"> span span 2 </span>
+        <span class="cuerpo__spanPrueba"> span span 3 </span>
+      </div>
+    </main>
+
+    <footer>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+        excepturi est aliquam exercitationem, et laudantium eveniet tenetur
+        libero placeat fugiat laborum dolore alias, provident odio,
+        reprehenderit voluptates nobis in. Maiores!
+      </p>
+    </footer>
+  </body>
+</html>
