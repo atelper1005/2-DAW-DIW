@@ -1,0 +1,183 @@
+body {
+    height: 100%;
+
+    font-family: sans-serif;
+    line-height: 1.35;
+    background-color: #d0d2d4;
+    color: #263238;
+    margin: 0
+
+}
+
+/***** ZONA HEADER *****/
+
+.header{
+    height: 100;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    color: #fff;
+
+    background-color: rgb(247, 68, 36);
+}
+
+
+.header__zonaTitulo{
+    height: auto;
+    width: 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    transition: 0.2s linear;
+}
+
+.header__zonaTitulo:hover{
+    background-color: rgb(143, 51, 51);
+}
+
+
+#zonaTitulo__logo img{
+    width: 110px;
+    height: 50px;
+}
+
+
+.header__zonaNavegacion{
+    height: 100%;
+    width: 50%;
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    
+}
+
+/* Quitamos el diseño por defecto de los enlaces */
+.header__zonaNavegacion a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.zonaNavegacion__div{
+    height: 100%;
+    transition: 0.15s ease-out;
+}
+.zonaNavegacion__div:hover{
+    color: #fff;
+    text-decoration: underline;
+    background-color: rgb(143, 51, 51);
+}
+
+.zonaNavegacion__div h3{
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+/***** ZONA MAIN *****/
+.zonaMain {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); /* Nº de columnas / 
+                                            1fr: unidad de medida a partir del viewport */
+    grid-template-rows: 3;
+
+    /* Aplicamos aire */
+    row-gap: 10px;
+
+
+    /* Establecemos un tamño minimo al row*/
+    grid-auto-rows: minmax(200px, auto);
+    
+    column-width: 0px;
+}
+
+
+.zonaMain__navegacion {
+    grid-column: 2/4;
+    margin: 0;
+    padding: 2px 0 0 12px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1px;
+
+    background-color: #fff;
+
+}
+
+.zonaMain__navegacion h2 {
+    padding-left: 40px;
+
+    font-size: medium;
+}
+
+.zonaMain a {
+    color: rgb(7, 192, 224);
+    text-decoration: none;
+}
+
+.zonaMain a:hover {
+    text-decoration: underline;
+}
+
+.zonaMain__contenido {
+    grid-column: 4/12;
+
+    padding: 20px;
+
+    background-color: #fff;
+}
+
+.zonaMain__contenido--seccion {
+    border-top: 1px solid red;
+    padding-top: 2em;
+}
+
+.seccion__span {
+    font-size: medium;
+    color: #9fa6ad;
+}
+
+kbd {
+    display: inline-block;
+    margin: 0 .1em;
+    padding: .1em .6em;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    line-height: 1.4;
+    color: #242729;
+    text-shadow: 0 1px 0 #fff;
+    background-color: #e4e6e8;
+    border: 1px solid #9fa6ad;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(12,13,14,.14901960784313725),inset 0 1px 0 0 #fff;
+    white-space: nowrap;
+    vertical-align: bottom;
+}
+
+.subseccion__url {
+    text-transform: uppercase;
+    background-color: rgba(0,116,236,.9294117647058824);
+    color: #fff;
+    border-radius: 3px;
+    padding: 4px 8px;
+}
+
+.zonaMain__JSONViewer {
+    background-color: #9fa6ad;
+}
+
+.zonaMain__JSONViewer--json {
+    background-color: #9fa6ad;
+}
+
+.zonaMain__contenido--tabla {
+    width: 100%;
+    max-width: 100%;
+    font-size: .9em;
+}
+
+.tabla__columna--head {
+    width: 10em;
+    min-width: 6em;
+}
