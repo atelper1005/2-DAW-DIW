@@ -1,0 +1,15 @@
+Layouts(display): grid, flex, block, inline, inline-block
+
+Position: static, relative, absolute, sticky, fixed
+
+Pseudoclases: :hover, :nth-child(n)
+
+Especifidad:    #         -especifico
+                <div>       |
+                class       |
+                id          |
+                inline    +especifico
+
+emet: div>a>i
+
+Media Queries: @media(width: n px)
