@@ -1,0 +1,22 @@
+$color-fondo: #F0F0F0;
+$color-secundario: #1d1d1d;
+
+body {
+    background-color: $color-fondo;
+}
+
+.header {
+    height: 10vh;
+    background-color: $color-secundario;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .header__div {
+        height: 100%;
+        width: 3em;
+        color: $color-fondo;
+    }
+}
+
