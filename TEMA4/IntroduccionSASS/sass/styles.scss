@@ -1,3 +1,4 @@
+//Variables y Anidamiento
 $color-fondo: #F0F0F0;
 $color-secundario: #1d1d1d;
 
@@ -20,3 +21,27 @@ body {
     }
 }
 
+//Funciones
+@mixin cambiar_color-fondo($nuevoColor:#FFF) {
+    background-color: $nuevoColor;
+}
+
+div {
+    @include cambiar_color-fondo(#FF0000);
+    @include crearGrid();
+}
+
+// Plantilla para Grid
+@mixin crearGrid($n-Columnas:12) {
+    display: grid;
+    grid-template-columns: repeat($n-Columnas, 1fr);
+}
+
+/*
+
+    En la terminal hay que moverse a la carpeta del proyecto 
+    y usar:
+
+    sass --watch 
+
+*/
