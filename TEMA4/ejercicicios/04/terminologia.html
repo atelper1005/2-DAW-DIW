@@ -4,21 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>#1 La Credibilidad de los medios</title>
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
     <header class="header">
-        <div>
-            <img src="Materiales-PEC1/img/logo-website.jpg" alt="logo-website">
-            <h1>#1 La Credibilidad de los medios</h1>
-        </div>
-      <nav>
-        <div><a href="">Artículo</a></div>
-        <div><a href="">Recursos</a></div>
-        <div><a href="">Terminología</a></div>
-      </nav>
+      <div class="header__zonaHeader">
+          <img src="Materiales-PEC1/img/logo-website.jpg" alt="logo-website">
+          <h1>#1 La Credibilidad de los medios</h1>
+      </div>
     </header>
-    <main>
-      <h2>¿De qué hablamos si decimos...?</h2>
+    <nav class="nav">
+        <div><a href="fin-confianza.html">ARTÍCULO</a></div>
+        <div><a href="recursos.html">RECURSOS</a></div>
+        <div><a class="a__active" href="terminologia.html">TERMINOLOGÍA</a></div>
+    </nav>
+    <main class="main">
+      <section class="main__contenido">
+      <h1>¿De qué hablamos si decimos...?</h1>
       <h3>Algoritmo</h3>
       <p>
         Según la Wikipedia los algoritmos son conjuntos finitos de instrucciones
@@ -47,10 +49,14 @@
       <p>
         Instiga violencia, discriminación u hostilidad hacia determinados grupos
         sociales. Las redes sociales contribuyen a esparcir prejuicios, y muchas
-        campañas tratan de luchar contra ello. [Aqui debes insertar el video de
-        youtube que encuentras en la siguiente dirección:
-        https://www.youtube.com/watch?time_continue=4&v=CH5rECBURD4] Hate Speech
-      </p>
+        campañas tratan de luchar contra ello.</p>
+        <div class="contenido__div-imagen">
+          <iframe width="560" height="315" src="https://www.youtube.com/watch?time_continue=4&v=CH5rECBURD4"
+              title="YouTube video" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
+          <p class="contenido__p--small contenido__p--centered">Hate Speech</p>
+        </div>
       <h3>Fake news</h3>
       <p>
         Este término nos sirve para identificar desde las noticias directamente
@@ -61,10 +67,13 @@
       <h3>Posverdad</h3>
       <p>
         Tiene el honor de ser la palabra del año 2016 según el diccionario
-        Oxford, que la define como: Relating to or denoting circumstances in
-        which objective facts are less influential in shaping public opinion
-        than appeals to emotion and personal belief. [Aqui debes situar la
-        imagen que ves en la captura de pantalla] Es, pues, el tipo de
+        Oxford, que la define como: 
+        <div class="contenido__div-ingles">Relating to or denoting circumstances in
+          which objective facts are less influential in shaping public opinion
+          than appeals to emotion and personal belief.</div> 
+        <div class="contenido__div-imagen2"><img src="Materiales-PEC1/img/woty2016.png" alt="woty"></div>  
+           <br>
+        Es, pues, el tipo de
         información donde los hechos objetivos tienen menos influencia que las
         llamadas a la emoción y a las creencias personales. Muy ligado también
         al concepto de "hechos alternativos".
@@ -75,17 +84,24 @@
         monstruos de la mitología escandinava. Este adjetivo se asocia a todos
         los perfiles que se dedican a hacer comentarios tóxicos con mala fe, o a
         mentir directamente, con la intención de provocar, de escarnecer o de
-        incendiar los debates en foros o comunidades virtuales. Elaborado a
-        partir de la información Educac. Fake news: com les podem detectar?.
-        Consultado desde
-        https://www.educac.cat/families/fake-news-com-les-podem-detectar
-        [https://www.educac.cat/families/fake-news-com-les-podem-detectar]
+        incendiar los debates en foros o comunidades virtuales. 
       </p>
-    </main>
-    <footer>
-      Trabajo realizado por Antonio Jesús Téllez Perdigones. Asignatura: HTML y
-      CSS [Insertar la imagen de creative commons, con enlace a
-      https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es]
-    </footer>
+      <div class="contenido__p--centered">
+        <br>
+        <br>
+        <br>
+      <div class="contenido__p--small">Elaborado a
+        partir de la información Educac. Fake news: com les podem detectar?.
+        Consultado desde: <a href="https://www.educac.cat/families/fake-news-com-les-podem-detectar">
+          https://www.educac.cat/families/fake-news-com-les-podem-detectar</a></div>
+      </div>
+    </section>
+  </main>
+    <footer class="footer">
+      <div class="footer__div">
+          <img src="Materiales-PEC1/img/creative-commons.png" alt="creative commons"></img>
+          <p>Trabajo realizado por Antonio Jesús Téllez Perdigones.</p>
+      </div>
+  </footer>
   </body>
 </html>

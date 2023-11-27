@@ -1,2 +1,27 @@
-//TEXTO
+// TEXTO
+$color-texto: #222222;
+$color-texto-secundario: #ffffff;
 
+// ENLACES
+$color-enlace: #cc0000;
+$color-enlace-hover: #222222;
+
+// MENU NAVEGACION
+$color-texto-nav: #222222;
+$color-texto-nav-hover: #cc0000;
+$color-borde-inferior-elemento-nav: #cc0000;
+
+// BORDES Y FONDO
+$color-borde: #dddddd;
+$color-fondo: #eeeeee;
+$color-fondo-header: #000000;
+$color-fondo-footer: #3b3b3b;
+
+// Fuentes
+$fuentes-serif: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+$fuentes-sans-serif: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+@mixin cambiar_color_y_fondo($fondo: #eeeeee, $color: #222222) {
+  color: $color;
+  background-color: $fondo;
+}
