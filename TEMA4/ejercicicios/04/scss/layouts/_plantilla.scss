@@ -75,6 +75,10 @@ a {
     font-size: 2em;
   }
 
+  a:hover {
+    color: $color-enlace-hover;
+  }
+
   .main__contenido {
     grid-column: 3/11;
 
